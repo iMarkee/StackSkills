@@ -13,11 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var firstLabel: UILabel!
     
     @IBAction func firstButton(_ sender: AnyObject) {
-        firstLabel.text = "Hello Kelly!"
+        firstLabel.text = "Hello Kelly! :)"
     }
-    
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
